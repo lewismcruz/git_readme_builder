@@ -1,5 +1,5 @@
 # git_readme_builder
-Git README Builder App
+Good README Builder App
 
 
 This app will help generate a README.md file for a project by asking some preliminary questions about the project to the user of the app.
