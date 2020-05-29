@@ -1,9 +1,9 @@
 
-# Good README.md Creator
+# Good README.md Generator
 
 ## Description
 
-This app generates a README.md file for a user.
+This app generates a preformatted README.md for busy devs
 
 _**The following is taken from the Trilogy Good Readme Guide.  This content is provided as a reference only.  Be sure to update or edit and customize the content of your README.md file to your specfic project.**_
     
@@ -65,19 +65,11 @@ The last section of a good README is a license. This lets other developers know 
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
     
 
-_**If you provided your Github username and your project and your repository name we provide you with some badge here:**_
-
-This is an issues count badge for your repository:
-![IssuesCountBadge](https://img.shields.io/github/issues/lewismcruz/git_readme_builder)
-
-This is a forks badge for your repository:
-![ForksBadge](https://img.shields.io/github/forks/lewismcruz/git_readme_builder)
-
-This is a stars badge for your repository:
-![StarsBadge](https://img.shields.io/github/stars/lewismcruz/git_readme_builder)
-
-This is a license badge for your repository:
-![LicenseBadge](https://img.shields.io/github/license/lewismcruz/git_readme_builder)
+**If you provided your Github username and your project and your repository name we provide you with some badge here:
+https://img.shields.io/github/issues/lewismcruz/git_readme_builder
+https://img.shields.io/github/forks/lewismcruz/git_readme_builder
+https://img.shields.io/github/stars/lewismcruz/git_readme_builder
+https://img.shields.io/github/license/lewismcruz/git_readme_builder
 
     
 ## Contributing
@@ -94,6 +86,6 @@ Go the extra mile and write tests for your application. Then provide examples on
         
 For questions or concerns regarding this application or project you can contact me via:
     
-Github Profile: ![userName Profile Photo](https://avatars3.githubusercontent.com/u/7396955?s=400&v=4)
+Github Profile: https://avatars3.githubusercontent.com/u/7396955?s=400&v=4
     
 Github E-mail: lewis.cruz@gmail.com
