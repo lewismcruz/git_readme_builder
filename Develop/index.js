@@ -14,8 +14,14 @@ function promptUser() {
   return inquirer.prompt([
     {
       type: "input",
-      name: "gitUsername",
+      name: "gitUserName",
       message: "What is your GitHub user name?"
+    
+    },
+    {
+      type: "input",
+      name: "gitRepoName",
+      message: "What is your GitHub repository name? Type it or copy it exactly from the URL:"
     
     },
     {
@@ -116,6 +122,13 @@ The last section of a good README is a license. This lets other developers know 
     
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
     
+
+**If you provided your Github username and your project and your repository name we provide you with some badge here:
+https://img.shields.io/github/issues/${userResponses.gitUserName}/${userResponses.gitRepoName}
+https://img.shields.io/github/forks/${userResponses.gitUserName}/${userResponses.gitRepoName}
+https://img.shields.io/github/stars/${userResponses.gitUserName}/${userResponses.gitRepoName}
+https://img.shields.io/github/license/${userResponses.gitUserName}/${userResponses.gitRepoName}
+
     
 ## Contributing
     
