@@ -1,6 +1,6 @@
 ## Description 
 
-_**The following is taken from the Trilogy Good Readme Guide.  This content is provided as a reference only.  Be sure to update or edit and customize the content of your README.md file to your specfic project.
+_**The following is taken from the Trilogy Good Readme Guide.  This content is provided as a reference only.  Be sure to update or edit and customize the content of your README.md file to your specfic project.**_
 
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
