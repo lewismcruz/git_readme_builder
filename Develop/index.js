@@ -144,7 +144,7 @@ Go the extra mile and write tests for your application. Then provide examples on
         
 For questions or concerns regarding this application or project you can contact me via:
     
-Github Profile: ${userResponses.githubPhotoURL}
+Github Profile: ![userName Profile Photo](${userResponses.githubPhotoURL})
     
 Github E-mail: ${userResponses.githubEmail}`;
 }
