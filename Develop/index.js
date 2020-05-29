@@ -137,7 +137,16 @@ function generateHTML(userResponses){
 
     ## Tests
 
-    Go the extra mile and write tests for your application. Then provide examples on how to run them.`;
+    Go the extra mile and write tests for your application. Then provide examples on how to run them.
+    
+    
+    ## Questions
+    
+    For questions or concerns regarding this application or project you can contact me via:
+
+    Github:
+
+    LinkedIn:  `;
 }
 
 promptUser()
