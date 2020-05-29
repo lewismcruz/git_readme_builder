@@ -94,6 +94,6 @@ Go the extra mile and write tests for your application. Then provide examples on
         
 For questions or concerns regarding this application or project you can contact me via:
     
-Github Profile: https://avatars3.githubusercontent.com/u/7396955?s=400&v=4
+Github Profile: ![userName Profile Photo](https://avatars3.githubusercontent.com/u/7396955?s=400&v=4)
     
 Github E-mail: lewis.cruz@gmail.com
