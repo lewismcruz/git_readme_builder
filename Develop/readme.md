@@ -1,61 +1,9 @@
 
-// Refer to the inquirer module needed users to be asked questions at terminal prompt.
-const inquirer = require("inquirer");
-// Refer to the file module needed to read and write to files 
-const fs = require("fs");
-
-const util = require("util");
-
-
-const writeFileAsync = util.promisify(fs.writeFile);
-
-// Questions asked of the user using the app to create their README.md file
-function promptUser() {
-  return inquirer.prompt([
-    {
-      type: "input",
-      name: "gitUsername",
-      message: "What is your GitHub user name?"
-    
-    },
-    {
-      type: "input",
-      name: "projectTitle",
-      message: "What is the title of your project?"
-    
-    },
-    {
-      type: "input",
-      name: "description",
-      message: "How would you describe your project?"
-    
-    },
-    {
-      type: "input",
-      name: "githubPhotoURL",
-      message: "Enter your GitHub profile photo URL here:"
-    
-    },
-    {
-      type: "input",
-      name: "githubEmail",
-      message: "Enter your GitHub e-mail here:"
-    
-    }
-  ]);
-}
-
-    
-function generateHTML(userResponses){
-    
-    // Decided to use the wording provided in the Good Readme reference guide on the class repo.  
-
-    return`
-# ${userResponses.projectTitle}
+# Good Readme builder
 
 ## Description
 
-${userResponses.description}
+Project makes readme files for user
 
 _**The following is taken from the Trilogy Good Readme Guide.  This content is provided as a reference only.  Be sure to update or edit and customize the content of your README.md file to your specfic project.**_
     
@@ -131,21 +79,6 @@ Go the extra mile and write tests for your application. Then provide examples on
         
 For questions or concerns regarding this application or project you can contact me via:
     
-Github Profile: ${userResponses.githubPhotoURL}
+Github Profile:www.google.com
     
-Github E-mail: ${userResponses.githubEmail}`;
-}
-
-promptUser()
- .then(function(userResponses) {
-   const mdFile = generateHTML(userResponses);
-   return writeFileAsync("README.md", mdFile);
- })
- .then(function(){
-     console.log("Successfully wrote to README.md.");
-     console.log("You generated a README.md file for your new project.")
- })
- .catch(function(error) {
-     console.log(error);
- }); 
-
+Github E-mail:www.github.com
