@@ -66,10 +66,18 @@ Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let 
     
 
 **If you provided your Github username and your project and your repository name we provide you with some badge here:
-https://img.shields.io/github/issues/lewismcruz/git_readme_builder
-https://img.shields.io/github/forks/lewismcruz/git_readme_builder
-https://img.shields.io/github/stars/lewismcruz/git_readme_builder
-https://img.shields.io/github/license/lewismcruz/git_readme_builder
+
+This is an issues count badge for your repository:
+![IssuesCountBadge](https://img.shields.io/github/issues/lewismcruz/git_readme_builder)
+
+This is a forks badge for your repository:
+![ForksBadge](https://img.shields.io/github/forks/lewismcruz/git_readme_builder)
+
+This is a stars badge for your repository:
+![StarsBadge](https://img.shields.io/github/stars/lewismcruz/git_readme_builder)
+
+This is a license badge for your repository:
+![LicenseBadge](https://img.shields.io/github/license/lewismcruz/git_readme_builder)
 
     
 ## Contributing
