@@ -1,66 +1,5 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const util = require("util");
 
-// process.argv[2] takes input from user at the terminal at 
-// element 2 of array
-
-const writeFileAsync = util.promisify(fs.writeFile);
-
-function promptUser() {
-  return inquirer.prompt([
-
-    //inquirer   --- don't need if defining as a function
-    //    .prompt([
-
-    {
-      type: "input",
-      name: "gitUsername",
-      message: "What is your GitHub user name?"
-    
-    },
-    {
-      type: "input",
-      name: "description",
-      message: "How would you describe your project?"
-    
-    },
-    {
-      type: "input",
-      name: "linkedInURL",
-      message: "Enter your LinkedIn URL here:"
-    
-    },
-    {
-      type: "input",
-      name: "githubURL",
-      message: "Enter your GitHub account URL here:"
-    
-    }
-  ]);
-}
-//.then(function(response) {
-    // Output of user inputs    
-   // console.log(response);
-  
-
-
-  //  fs.writeFile("portfolio.html", , function(err) {
-
-       
-      
-
-    // fs.writeFile(response);
-
-  
-  //}
-    
-function generateHTML(userResponses){
-    
-    // Decided to use the wording provided in the Good Readme reference guide on the class repo.  
-
-    return`
-    # ${userResponses.projectTitle}
+    # undefined
 
     ## Description 
 
@@ -140,18 +79,4 @@ function generateHTML(userResponses){
 
     Github:
 
-    LinkedIn:  `;
-}
-
-promptUser()
- .then(function(userResponses) {
-   const mdFile = generateHTML(userResponses);
-   return writeFileAsync("readme.md", mdFile);
- })
- .then(function(){
-     console.log("Successfully wrote to readme.md");
- })
- .catch(function(error) {
-     console.log(error);
- }); // not sure where bracket should go to make semicolon error go away. Look at scope/*
-
+    LinkedIn:  
