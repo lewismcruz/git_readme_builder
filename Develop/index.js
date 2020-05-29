@@ -2,16 +2,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
-// process.argv[2] takes input from user at the terminal at 
-// element 2 of array
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
   return inquirer.prompt([
 
-    //inquirer   --- don't need if defining as a function
-    //    .prompt([
 
     {
       type: "input",
@@ -45,21 +41,7 @@ function promptUser() {
     }
   ]);
 }
-//.then(function(response) {
-    // Output of user inputs    
-   // console.log(response);
-  
 
-
-  //  fs.writeFile("portfolio.html", , function(err) {
-
-       
-      
-
-    // fs.writeFile(response);
-
-  
-  //}
     
 function generateHTML(userResponses){
     
@@ -146,9 +128,9 @@ Go the extra mile and write tests for your application. Then provide examples on
         
 For questions or concerns regarding this application or project you can contact me via:
     
-Github:${userResponses.githubURL}
+Github Profile:${userResponses.githubPhotoURL}
     
-LinkedIn:`;
+Github E-mail:${userResponses.githubEmail}`;
 }
 
 promptUser()
