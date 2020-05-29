@@ -1,6 +1,4 @@
 
-    # undefined
-
     ## Description 
 
     -**The following is taken from the Trilogy Good Readme Guide.  This content is provided as a reference only.  Be sure to update or edit and customize the content of your README.md file to your specfic project.**_
